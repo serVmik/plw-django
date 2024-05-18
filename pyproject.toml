@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "plw-django"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Mikurov <454004@mail.ru>"]
+readme = "README.md"
+packages = [{include = "plw_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2"
+playwright = "^1.44.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
